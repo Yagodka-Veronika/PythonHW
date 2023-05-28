@@ -96,5 +96,8 @@
 #     main()
 
 
-# with open ('tel.txt', 'r') as f:
+with open ('tel.txt', 'r') as f:
+    st = f.read()
+print (st)   
+    
 
